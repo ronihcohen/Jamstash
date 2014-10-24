@@ -569,6 +569,8 @@ function SubsonicCtrl($scope, $rootScope, $location, $window, $routeParams, util
         }
     };
 
+     $scope.getAlbumListBy('random');
+
     /* Launch on Startup */
     $scope.getArtists();
     if ($routeParams.artistId && $routeParams.albumId) {
